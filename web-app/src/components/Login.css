@@ -1,0 +1,151 @@
+/* General styles */
+.login-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #81d4fa);
+    flex-direction: row;
+    padding: 0 20px;  /* Add padding to prevent items from sticking to the edges */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+}
+
+.login-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #01579b;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+/* Card for login form */
+.card-login {
+    position: relative;
+    padding: 2.5rem 2rem;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    margin-left: 40px;  /* Make sure there's space between the logo and the form */
+}
+
+.card-login h2 {
+    font-weight: bold;
+    color: #01579b;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #0288d1;
+    font-size: 1rem;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #81d4fa;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    padding: 10px;
+    transition: border 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #0288d1;
+}
+
+.form-control-lg {
+    font-size: 1.1rem;
+}
+
+.btn-login {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: #0288d1;
+    border: none;
+    padding: 12px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background: #01579b;
+}
+
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .login-heading {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .card-login {
+        width: 90%;
+        padding: 2rem 1.5rem;
+        margin-left: 0;  
+        margin-top: 20px; 
+    }
+
+    .form-control,
+    .form-control-lg {
+        font-size: 1rem;
+    }
+
+    .btn-login {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-heading {
+        font-size: 1.6rem;
+    }
+
+    .card-login {
+        width: 95%;
+        padding: 1.5rem 1rem;
+    }
+
+    .form-control,
+    .form-control-lg {
+        font-size: 0.9rem;
+    }
+
+    .btn-login {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1100px){
+    .h1-p1{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,74 @@
+.dashboard-container {
+    padding: 20px;
+    background: #f0f8ff; /* Adjusted to a softer, more professional blue tone */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #01579b;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Added space between items */
+    margin-bottom: 30px;
+}
+
+.summary-item {
+    background: #b3e5fc;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.summary-item:hover {
+    transform: scale(1.05);
+}
+
+.summary-item h3 {
+    color: #0277bd;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.summary-item h5 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.recent-equipments {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recent-equipments h3 {
+    color: #01579b;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.recent-equipments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-equipments li {
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #424242;
+    font-size: 1em;
+}
+
+.recent-equipments li:last-child {
+    border-bottom: none;
+}

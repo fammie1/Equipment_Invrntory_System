@@ -1,0 +1,73 @@
+.navbar {
+    
+    position: sticky; /* Locks the navbar at the top while scrolling */
+    top: 0; /* Ensures the navbar stays at the top of the viewport */
+    z-index: 1000; /* Keeps the navbar above other elements */
+    background-color: white; /* Background color to avoid transparency issues */
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.custom-navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.navbar-logo {
+    height: 100px;
+    margin-right: 25px;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.school-name {
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+
+.logout-button {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+    color: white;
+}
+
+.eq-list{
+    font-size: 14px;
+    text-decoration: none;
+    color: #b2a8a8;
+    font-weight: normal;
+    
+}
+.eq-list:hover{
+    color: #cecece;
+}
+
+.eq-list1{
+    font-size: 14px;
+    text-decoration: none;
+    color: #b2a8a8;
+    font-weight: normal;
+    margin-left: 15px;
+}
+.eq-list1:hover{
+    color: #cecece;
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /* Ensures content in the collapse aligns to the right */
+}
