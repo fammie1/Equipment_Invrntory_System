@@ -10,7 +10,7 @@ A web-based system for managing and tracking equipment Inventory within an organ
 - 📋 Add, edit, delete, and view equipment details
 - 📊 Dashboard showing recent equipment
 - 📁 Department/location dropdown for categorizing
-- 🌐 Web-based system accessible from anywhere
+- 📱 Responsive UI built with React
 
 ---
 
